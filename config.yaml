@@ -157,7 +157,7 @@ params:
     enable: true
     title: "About Me"
     image: "/images/me.png"
-    content: "TODO"
+    content: "This Website is Work In Progress :)"
     skills:
       enable: true
       title: "TODO"
