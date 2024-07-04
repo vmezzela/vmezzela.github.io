@@ -1,6 +1,6 @@
-baseURL: "https://hugo-profile.netlify.app"
+baseURL: "https://m-Vins.github.io"
 languageCode: "en-us"
-title: "Hugo Profile"
+title: Sacco's Portfolio
 theme: hugo-profile
 
 outputs:
@@ -53,7 +53,7 @@ Menus:
     #   weight: 2
 
 params:
-  title: "Hugo Profile"
+  title: "Sacco's Portolio"
   description: Text about my cool site
   # staticPath: ""  # The path to serve the static files from
   favicon: "/fav.png"
@@ -75,8 +75,8 @@ params:
   animate: true
 
   theme:
-    # disableThemeToggle: true
-    # defaultTheme: "light" # dark
+    disableThemeToggle: true
+    defaultTheme: "dark" # light
 
   font:
     fontSize: 1rem # default: 1rem
@@ -107,7 +107,7 @@ params:
     align: ms-auto # Left: ms-auto | center: mx-auto | right: me-auto | Default: ms-auto
     # brandLogo: "/logo.png" # Logo for the brand | default is the favicon variable
     # showBrandLogo: false # Show brand logo in nav bar | default is true
-    brandName: "Hugo Profile" # Brand name for the brand | default is the title variable
+    brandName: "Sacco's Portfolio" # Brand name for the brand | default is the title variable
     disableSearch: false
     # searchPlaceholder: "Search"
     stickyNavBar:
@@ -126,29 +126,31 @@ params:
   hero:
     enable: true
     intro: "Hi, my name is"
-    title: "Isabella."
-    subtitle: "I build things for the web"
-    content: "A passionate web app developer. I tend to make use of modern web technologies to build websites that looks great, feels fantastic, and functions correctly."
+    title: "Vincenzo."
+    subtitle: "I am a Software Engineer"
+    content: "from Italy"
     image: /images/hero.svg
     bottomImage:
       enable: true
     # roundImage: true # Make hero image circular | default false
-    button:
+    # button:
 
-      enable: true
-      name: "Resume"
-      url: "#"
-      download: true
-      newPage: false
+    #   enable: true
+    #   name: "Resume"
+    #   url: "#"
+    #   download: true
+    #   newPage: false
+
+
     socialLinks:
       fontAwesomeIcons:
         - icon: fab fa-github
-          url: https://example.com
-        - icon: fab fa-x-twitter
-          url: https://example.com
-      customIcons:
-        - icon: /fav.png
-          url: "https://example.com"
+          url: https://github.com/m-Vins
+        - icon: fab fa-linkedin
+          url: https://www.linkedin.com/in/vincenzo-mezzela/
+      # customIcons:
+      #  - icon: /fav.png
+      #    url: "https://example.com"
 
   # About
   about:
