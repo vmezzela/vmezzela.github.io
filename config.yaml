@@ -1,4 +1,4 @@
-baseURL: "https://m-Vins.github.io"
+baseURL: "https://m-vins.github.io"
 languageCode: "en-us"
 title: Sacco's Portfolio
 theme: hugo-profile
@@ -54,9 +54,9 @@ Menus:
 
 params:
   title: "Sacco's Portolio"
-  description: Text about my cool site
+  description: This website is intended to be a personal portfolio
   # staticPath: ""  # The path to serve the static files from
-  favicon: "/fav.png"
+  favicon: "/coding.svg"
 
   # Whether to serve bootstrap css and js files from CDN or not. Can be set to true, "css" or "js" to choose between
   # serving both, only the css, or only the js files through the CDN. Any other value will make so that CDN is not used.
@@ -105,7 +105,7 @@ params:
   # If you want to customize the menu, you can change it here
   navbar:
     align: ms-auto # Left: ms-auto | center: mx-auto | right: me-auto | Default: ms-auto
-    # brandLogo: "/logo.png" # Logo for the brand | default is the favicon variable
+    brandLogo: "/coding.svg" # Logo for the brand | default is the favicon variable
     # showBrandLogo: false # Show brand logo in nav bar | default is true
     brandName: "Sacco's Portfolio" # Brand name for the brand | default is the title variable
     disableSearch: true
@@ -128,8 +128,9 @@ params:
     intro: "Hi, my name is"
     title: "Vincenzo."
     subtitle: "I am a Software Engineer"
-    content: "from Italy"
-    image: /images/hero.svg
+    content: |-
+      from Italy, and this is my personal portfolio.
+    image: programmer.svg
     bottomImage:
       enable: true
     # roundImage: true # Make hero image circular | default false
@@ -156,13 +157,26 @@ params:
   about:
     enable: true
     title: "About Me"
-    image: "/images/me.png"
-    content: "This Website is Work In Progress :)"
+    image: "/images/mezzela-vincenzo-round.png"
+    content: |-
+      My academic journey began at the Polytechnic of Turin, where I earned a Bachelor's Degree in Computer Engineering. Along these three years, I had the opportunity to participate to the Cyberchallenge Project, which introduced me to the world of Cybersecurity. I fell in love with binary challenges and explored the inner details of the memory and its associated vulnerabilities. This experience inspired me to pursue a Master's Degree with a specialization in Cybersecurity.
+
+      In the first year of my Master's program, I took a course on System and Devices Programming, which deepened my interest in Operating Systems and solidified my desire to become an expert in this field. I was then awarded an Erasmus Scholarship, allowing me to pursue a Double Degree at Eurecom, located in the heart of Sophia Antipolis (France), also known as Europe's Silicon Valley.
+
+      To complete the Double Degree program, after studying one year in Turin and one year at Sophia Antipolis, I took an internship at Amadeus S.A.S, where I worked on integrating a Fuzzer into their C++ core software stack.
+
+      In April 2024, I graduated magna cum laude from the Polytechnic of Turin.
+
+      Since then, I have been dedicating time to a mentorship program on the Linux kernel (as a mentee) and am actively seeking job opportunities.
+
     skills:
-      enable: true
-      title: "TODO"
+      enable: false
+      title: "Below are the programming languages and tools I am most proficient in"
       items:
         - "C"
+        - "Python"
+        - "Bash"
+        - "C++"
 
   # Experience
   experience:
@@ -270,9 +284,8 @@ params:
 
   #Contact
   contact:
-    enable: false
-    # title: "Custom Name"
-    # content: My inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!
+    enable: true
+    content: vincenzo [dot] mezzela [at] gmail [dot] com
     # btnName: Mail me
     # btnLink: mailto:<mail>@gmail.com
     # formspree:
@@ -282,19 +295,16 @@ params:
     #   messageCaption: "Enter your message here"
     #   messageRows: 5
 
-  # footer:
-  #   recentPosts:
-  #     path: "blogs"
-  #     count: 3
-  #     title: Recent Posts
-  #     enable: true
-  #     disableFeaturedImage: false
-  #   socialNetworks:
-  #     github: https://github.com
-  #     linkedin: https://linkedin.com
-  #     twitter: https://twitter.com
-  #     instagram: https://instagram.com
-  #     facebook: https://facebook.com
+  footer:
+    recentPosts:
+      path: "blogs"
+      count: 3
+      title: Recent Posts
+      enable: true
+      disableFeaturedImage: false
+    socialNetworks:
+      github: https://github.com/m-Vins
+      linkedin: https://www.linkedin.com/in/vincenzo-mezzela
 
   # List pages like blogs and posts
   listPages:
