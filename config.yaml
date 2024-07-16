@@ -253,6 +253,7 @@ params:
           - "Kernel Programming"
           - "Virtual Address Space"
           - "Operating Systems"
+        image: images/page_table.png
         links:
           - icon: fab fa-github
             url: https://github.com/m-Vins/OS161-DEMAND-PAGING
@@ -263,6 +264,7 @@ params:
           - "C"
           - "Assembly"
           - "Embedded Systems"
+        image: images/land_tiger.jpg
         links:
           - icon: fab fa-github
             url: https://github.com/m-Vins/Pong-game-on-a-LandTiger-board
@@ -272,7 +274,7 @@ params:
           Carried out a path of formation in cyber security, up to the selection for the Italian championship
           of cyber-defender. Along this path I have been trained to solve Capture The Flag challenges about
           different topics such as cryptography, binary, network, web, reverse and pwn.
-        image: /images/projects/profile2.jpg
+        image: /images/cyberchallenge.png
         badges:
           - "C"
           - "Assembly"
@@ -288,6 +290,7 @@ params:
           - "C++"
           - "Remote Procedure Call"
           - "Protobuffer"
+        image: /images/cloud_project.png
 
   #Contact
   contact:
