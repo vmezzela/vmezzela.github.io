@@ -246,19 +246,23 @@ params:
     # title: "Custom Name"
     items:
       - title: Virtual Memory in OS161 
-        content: Development of the virtual memory kernel module for OS161 with demand paging and swap management.
+        content: |-
+          In this academic project, we extended the OS161 kernel by developing a custom Virtual Memory Manager from the ground up. This manager employs a Demand Paging strategy and includes Swap Management for scenarios where RAM is fully utilized. For more detailed information, please refer to the project README on GitHub.
         badges:
           - "C"
           - "Kernel Programming"
+          - "Virtual Address Space"
+          - "Operating Systems"
         links:
           - icon: fab fa-github
             url: https://github.com/m-Vins/OS161-DEMAND-PAGING
 
       - title: Pong Game on a LandTiger board
-        content: Development of the pong game on a bare metal, tackling interrupts, registers and user peripherals devices programming.
+        content: This project involves developing the classic Pong game on a bare-metal LandTiger board. The implementation includes handling interrupts, programming registers, and interfacing with various user peripheral devices.
         badges:
           - "C"
           - "Assembly"
+          - "Embedded Systems"
         links:
           - icon: fab fa-github
             url: https://github.com/m-Vins/Pong-game-on-a-LandTiger-board
@@ -273,6 +277,9 @@ params:
           - "C"
           - "Assembly"
           - "Reverse Engineering"
+        links:
+          - icon: fa fa-bookmark
+            url: https://cyberchallenge.it
       - title: Distributed Backend System
         content: |-
           Development of a simple backend system where data are split over different fault-tolerant
@@ -286,14 +293,6 @@ params:
   contact:
     enable: true
     content: vincenzo [dot] mezzela [at] gmail [dot] com
-    # btnName: Mail me
-    # btnLink: mailto:<mail>@gmail.com
-    # formspree:
-    #   enable: true # `contact.email` value will be ignored
-    #   formId: abcdefgh # Take it from your form's endpoint, like 'https://formspree.io/f/abcdefgh'
-    #   emailCaption: "Enter your email address"
-    #   messageCaption: "Enter your message here"
-    #   messageRows: 5
 
   footer:
     recentPosts:
