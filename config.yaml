@@ -163,7 +163,7 @@ params:
 
       In the first year of my Master's program, I took a course on System and Devices Programming, which deepened my interest in Operating Systems and solidified my desire to become an expert in this field. I was then awarded an Erasmus Scholarship, allowing me to pursue a Double Degree at Eurecom, located in the heart of Sophia Antipolis (France), also known as Europe's Silicon Valley.
 
-      To complete the Double Degree program, after studying one year in Turin and one year at Sophia Antipolis, I took an internship at Amadeus S.A.S, where I worked on integrating a Fuzzer into their C++ core software stack.
+      After studying for one year in Turin and another year at Sophia Antipolis, I completed the Double Degree program with a six months internship at Amadeus S.A.S. The company is one of the top global software providers and a major Global Distribution System (GDS) for the travel and tourism industries. During my internship, I worked on integrating a Fuzzer into their C++ core software stack.
 
       In April 2024, I graduated magna cum laude from the Polytechnic of Turin.
 
@@ -259,7 +259,7 @@ params:
             url: https://github.com/m-Vins/OS161-DEMAND-PAGING
 
       - title: Pong Game on a LandTiger board
-        content: This project involves developing the classic Pong game on a bare-metal LandTiger board. The implementation includes handling interrupts, programming registers, and interfacing with various user peripheral devices.
+        content: This academic project involved developing the classic Pong game on a bare-metal LandTiger board. The implementation required handling interrupts, programming registers, and interfacing with various user peripheral devices.
         badges:
           - "C"
           - "Assembly"
@@ -279,13 +279,16 @@ params:
           - "C"
           - "Assembly"
           - "Reverse Engineering"
+          - "Security"
         links:
           - icon: fa fa-bookmark
             url: https://cyberchallenge.it
-      - title: Distributed Backend System
+      - title: Distributed Backend Database System
         content: |-
-          Development of a simple backend system where data are split over different fault-tolerant
-          servers.
+          This academic project focused on developing a distributed database system with fault-tolerant shards. The data
+          is partitioned across multiple shards, each capable of automatic self-restoration in case of failures.
+          The system is dynamic, allowing for the addition of new nodes at runtime, which triggers the redistribution of
+          data to accommodate the updated configuration.
         badges:
           - "C++"
           - "Remote Procedure Call"
