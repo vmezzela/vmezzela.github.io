@@ -245,6 +245,17 @@ params:
     enable: true
     # title: "Custom Name"
     items:
+      - title: Linux From Scratch
+        content: |-
+          Built an entire Linux system following the Linux From Scratch procedure. The building process doesn't rely on any prepackaged component: all the pieces of the system are compiled directly from the source code.
+          For more information, please refer to my blog post in the link below.
+        badges:
+          - "Linux"
+        image: /images/lfs.jpg
+        links:
+          - icon: fa fa-bookmark
+            url: blog/lfs
+
       - title: Linux Kernel Mentorship
         content: |-
           I have taken part in a mentorship organized by the Linux Foundation, I contributed to the Linux Kernel through a structured program focused on submitting patches to the upstream kernel.
