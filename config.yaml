@@ -253,7 +253,7 @@ params:
           - "Linux"
         image: /images/lfs.jpg
         links:
-          - icon: fa fa-bookmark
+          - icon: fa fa-link
             url: blog/lfs
 
       - title: Linux Kernel Mentorship
@@ -267,7 +267,7 @@ params:
           - "Open Source Software"
         image: /lkmp.svg
         links:
-          - icon: fa fa-bookmark
+          - icon: fa fa-link
             url: blog/lkmp
 
       - title: Virtual Memory in OS161 
@@ -306,7 +306,7 @@ params:
           - "Reverse Engineering"
           - "Security"
         links:
-          - icon: fa fa-bookmark
+          - icon: fa fa-link
             url: https://cyberchallenge.it
       - title: Distributed Backend Database System
         content: |-
