@@ -133,6 +133,7 @@ params:
       
       Scroll down to explore my work.
 
+    # image: programmer.svg
     bottomImage:
       enable: true
     # roundImage: true # Make hero image circular | default false
