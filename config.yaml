@@ -160,7 +160,7 @@ params:
   about:
     enable: true
     title: "About Me"
-    image: "/images/mezzela-vincenzo-round.png"
+    # image: "/images/mezzela-vincenzo-round.png"
     content: |-
       My academic journey began at the Polytechnic of Turin, where I earned a Bachelor's Degree in Computer Engineering. Along these three years, I had the opportunity to participate to the Cyberchallenge Project, which introduced me to the world of Cybersecurity. I fell in love with binary challenges and explored the inner details of the memory and its associated vulnerabilities. This experience inspired me to pursue a Master's Degree with a specialization in Cybersecurity.
 
