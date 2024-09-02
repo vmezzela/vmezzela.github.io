@@ -125,12 +125,14 @@ params:
   # Hero
   hero:
     enable: true
-    intro: "Hi, my name is"
+    intro: "Hi, I am"
     title: "Vincenzo."
-    subtitle: "I am a Software Engineer"
+    subtitle: "I am a Software Engineer from Italy."
     content: |-
-      from Italy, and this is my personal portfolio.
-    image: programmer.svg
+      Welcome to my personal portfolio and blog, where I share my journey, projects, and insights as a software engineer.
+      
+      Scroll down to explore my work.
+
     bottomImage:
       enable: true
     # roundImage: true # Make hero image circular | default false
