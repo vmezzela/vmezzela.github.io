@@ -134,9 +134,10 @@ params:
       Scroll down to explore my work.
 
     # image: programmer.svg
+    image: "/images/mezzela-vincenzo-round.png"
     bottomImage:
       enable: true
-    # roundImage: true # Make hero image circular | default false
+    roundImage: true # Make hero image circular | default false
     # button:
 
     #   enable: true
