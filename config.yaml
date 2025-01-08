@@ -187,6 +187,16 @@ params:
     enable: true
     # title: "Custom Name"
     items:
+      - job: "Linux Kernel Livepatching Developer"
+        company: "SUSE"
+        companyUrl: "https://www.suse.com/"
+        date: "Dec 2024 - present"
+        featuredLink:
+          enable: true
+          name: "SUSE Linux Enterprise Live Patching"
+          url: "https://www.suse.com/products/live-patching/"
+        content: ""
+
       - job: "Security Engineer Intern"
         company: "Amadeus"
         companyUrl: "https://amadeus.com/en"
