@@ -54,7 +54,7 @@ Menus:
 
 params:
   title: "Vincenzo's Portolio"
-  description: This website is intended to be a personal portfolio
+  description: This website is a personal portfolio
   # staticPath: ""  # The path to serve the static files from
   favicon: "/coding.svg"
 
@@ -129,8 +129,9 @@ params:
     title: "Vincenzo."
     subtitle: "I am a Software Engineer from Italy."
     content: |-
-      Welcome to my personal portfolio and blog, where I share my journey, projects, and insights as a software engineer.
-      
+      Welcome to my personal portfolio and blog, where I share my journey,
+      projects, and insights as a software engineer.
+
       Scroll down to explore my work.
 
     # image: programmer.svg
@@ -163,15 +164,32 @@ params:
     title: "About Me"
     # image: "/images/mezzela-vincenzo-round.png"
     content: |-
-      My academic journey began at the Polytechnic of Turin, where I earned a Bachelor's Degree in Computer Engineering. Along these three years, I had the opportunity to participate to the Cyberchallenge Project, which introduced me to the world of Cybersecurity. I fell in love with binary challenges and explored the inner details of the memory and its associated vulnerabilities. This experience inspired me to pursue a Master's Degree with a specialization in Cybersecurity.
+      My academic journey began at the Polytechnic of Turin, where I earned a
+      Bachelor's Degree in Computer Engineering. Along these three years, I had
+      the opportunity to participate to the Cyberchallenge Project, which
+      introduced me to the world of Cybersecurity. I fell in love with binary
+      challenges and explored the inner details of the memory and its
+      associated vulnerabilities. This experience inspired me to pursue a
+      Master's Degree with a specialization in Cybersecurity.
 
-      In the first year of my Master's program, I took a course on System and Devices Programming, which deepened my interest in Operating Systems and solidified my desire to become an expert in this field. I was then awarded an Erasmus Scholarship, allowing me to pursue a Double Degree at Eurecom, located in the heart of Sophia Antipolis (France), also known as Europe's Silicon Valley.
+      In the first year of my Master's program, I took a course on System and
+      Devices Programming, which deepened my interest in Operating Systems and
+      solidified my desire to become an expert in this field. I was then
+      awarded an Erasmus Scholarship, allowing me to pursue a Double Degree at
+      Eurecom, located in the heart of Sophia Antipolis (France), also known as
+      Europe's Silicon Valley.
 
-      After studying for one year in Turin and another year at Sophia Antipolis, I completed the Double Degree program with a six months internship at Amadeus S.A.S. The company is one of the top global software providers and a major Global Distribution System (GDS) for the travel and tourism industries. During my internship, I worked on integrating a Fuzzer into their C++ core software stack.
+      After studying for one year in Turin and another year at Sophia
+      Antipolis, I completed the Double Degree program with a six months
+      internship at Amadeus S.A.S. The company is one of the top global
+      software providers and a major Global Distribution System (GDS) for the
+      travel and tourism industries. During my internship, I worked on
+      integrating a Fuzzer into their C++ core software stack.
 
       In April 2024, I graduated magna cum laude from the Polytechnic of Turin.
 
-      Since then, I have been dedicating time to a mentorship program on the Linux kernel (as a mentee) and am actively seeking job opportunities.
+      Since then, I have been dedicating time to a mentorship program on the
+      Linux kernel (as a mentee) and am actively seeking job opportunities.
 
     skills:
       enable: false
@@ -205,7 +223,11 @@ params:
         #   enable: true
         #   name: "View the project"
         #   url: "https://example.com"
-        content: "Led comprehensive research and implementation efforts to integrate AFLplusplus, an open-source mutational coverage-guided fuzzer, into company’s core C++ software stack. The objective was to advance the secure development lifecycle of the applications."
+        content: |-
+          Led comprehensive research and implementation efforts to
+          integrate AFLplusplus, an open-source mutational coverage-guided
+          fuzzer, into company’s core C++ software stack. The objective was to
+          advance the secure development lifecycle of the applications.
 
   # Education
   education:
@@ -261,8 +283,11 @@ params:
     items:
       - title: Linux From Scratch
         content: |-
-          Built an entire Linux system following the Linux From Scratch procedure. The building process doesn't rely on any prepackaged component: all the pieces of the system are compiled directly from the source code.
-          For more information, please refer to my blog post in the link below.
+          Built an entire Linux system following the Linux From Scratch
+          procedure. The building process doesn't rely on any prepackaged
+          component: all the pieces of the system are compiled directly from
+          the source code. For more information, please refer to my blog post
+          in the link below.
         badges:
           - "Linux"
         image: /images/lfs.jpg
@@ -272,8 +297,10 @@ params:
 
       - title: Linux Kernel Mentorship
         content: |-
-          I have taken part in a mentorship organized by the Linux Foundation, I contributed to the Linux Kernel through a structured program focused on submitting patches to the upstream kernel.
-          For more information, please refer to my blog post in the link below.
+          I have taken part in a mentorship organized by the Linux Foundation,
+          I contributed to the Linux Kernel through a structured program
+          focused on submitting patches to the upstream kernel. For more
+          information, please refer to my blog post in the link below.
         badges:
           - "C"
           - "Linux Kernel Programming"
@@ -286,7 +313,11 @@ params:
 
       - title: Virtual Memory in OS161 
         content: |-
-          In this academic project, we extended the OS161 kernel by developing a custom Virtual Memory Manager from the ground up. This manager employs a Demand Paging strategy and includes Swap Management for scenarios where RAM is fully utilized. For more detailed information, please refer to the project README on GitHub.
+          In this academic project, we extended the OS161 kernel by developing
+          a custom Virtual Memory Manager from the ground up. This manager
+          employs a Demand Paging strategy and includes Swap Management for
+          scenarios where RAM is fully utilized. For more detailed information,
+          please refer to the project README on GitHub.
         badges:
           - "C"
           - "Kernel Programming"
@@ -298,7 +329,11 @@ params:
             url: https://github.com/m-Vins/OS161-DEMAND-PAGING
 
       - title: Pong Game on a LandTiger board
-        content: This academic project involved developing the classic Pong game on a bare-metal LandTiger board. The implementation required handling interrupts, programming registers, and interfacing with various user peripheral devices.
+        content: |-
+          This academic project involved developing the classic Pong game on a
+          bare-metal LandTiger board. The implementation required handling
+          interrupts, programming registers, and interfacing with various user
+          peripheral devices.
         badges:
           - "C"
           - "Assembly"
@@ -310,9 +345,11 @@ params:
 
       - title: Cyberchallenge
         content: |-
-          Carried out a path of formation in cyber security, up to the selection for the Italian championship
-          of cyber-defender. Along this path I have been trained to solve Capture The Flag challenges about
-          different topics such as cryptography, binary, network, web, reverse and pwn.
+          Carried out a path of formation in cyber security, up to the
+          selection for the Italian championship of cyber-defender. Along this
+          path I have been trained to solve Capture The Flag challenges about
+          different topics such as cryptography, binary, network, web, reverse
+          and pwn.
         image: /images/cyberchallenge.png
         badges:
           - "C"
@@ -324,10 +361,12 @@ params:
             url: https://cyberchallenge.it
       - title: Distributed Backend Database System
         content: |-
-          This academic project focused on developing a distributed database system with fault-tolerant shards. The data
-          is partitioned across multiple shards, each capable of automatic self-restoration in case of failures.
-          The system is dynamic, allowing for the addition of new nodes at runtime, which triggers the redistribution of
-          data to accommodate the updated configuration.
+          This academic project focused on developing a distributed database
+          system with fault-tolerant shards. The data is partitioned across
+          multiple shards, each capable of automatic self-restoration in case
+          of failures. The system is dynamic, allowing for the addition of new
+          nodes at runtime, which triggers the redistribution of data to
+          accommodate the updated configuration.
         badges:
           - "C++"
           - "Remote Procedure Call"
