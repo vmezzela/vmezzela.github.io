@@ -277,19 +277,6 @@ params:
     enable: true
     # title: "Custom Name"
     items:
-      - title: Linux From Scratch
-        content: |-
-          Built an entire Linux system following the Linux From Scratch
-          procedure. The building process doesn't rely on any prepackaged
-          component: all the pieces of the system are compiled directly from
-          the source code. For more information, please refer to my blog post
-          in the link below.
-        badges:
-          - "Linux"
-        image: /images/lfs.jpg
-        links:
-          - icon: fa fa-link
-            url: blog/lfs
 
       - title: Linux Kernel Mentorship
         content: |-
@@ -307,38 +294,6 @@ params:
           - icon: fa fa-link
             url: blog/lkmp
 
-      - title: Virtual Memory in OS161 
-        content: |-
-          In this academic project, we extended the OS161 kernel by developing
-          a custom Virtual Memory Manager from the ground up. This manager
-          employs a Demand Paging strategy and includes Swap Management for
-          scenarios where RAM is fully utilized. For more detailed information,
-          please refer to the project README on GitHub.
-        badges:
-          - "C"
-          - "Kernel Programming"
-          - "Virtual Address Space"
-          - "Operating Systems"
-        image: images/page_table.png
-        links:
-          - icon: fab fa-github
-            url: https://github.com/m-Vins/OS161-DEMAND-PAGING
-
-      - title: Pong Game on a LandTiger board
-        content: |-
-          This academic project involved developing the classic Pong game on a
-          bare-metal LandTiger board. The implementation required handling
-          interrupts, programming registers, and interfacing with various user
-          peripheral devices.
-        badges:
-          - "C"
-          - "Assembly"
-          - "Embedded Systems"
-        image: images/land_tiger.jpg
-        links:
-          - icon: fab fa-github
-            url: https://github.com/m-Vins/Pong-game-on-a-LandTiger-board
-
       - title: Cyberchallenge
         content: |-
           Carried out a path of formation in cyber security, up to the
@@ -355,19 +310,6 @@ params:
         links:
           - icon: fa fa-link
             url: https://cyberchallenge.it
-      - title: Distributed Backend Database System
-        content: |-
-          This academic project focused on developing a distributed database
-          system with fault-tolerant shards. The data is partitioned across
-          multiple shards, each capable of automatic self-restoration in case
-          of failures. The system is dynamic, allowing for the addition of new
-          nodes at runtime, which triggers the redistribution of data to
-          accommodate the updated configuration.
-        badges:
-          - "C++"
-          - "Remote Procedure Call"
-          - "Protobuffer"
-        image: /images/cloud_project.png
 
   #Contact
   contact:
