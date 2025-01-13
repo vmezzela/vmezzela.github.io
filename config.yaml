@@ -203,7 +203,7 @@ params:
   # Experience
   experience:
     enable: true
-    # title: "Custom Name"
+    title: "Professional Experience"
     items:
       - job: "Linux Kernel Livepatching Developer"
         company: "SUSE"
